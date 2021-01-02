@@ -11,8 +11,8 @@ import org.apache.hadoop.io.WritableComparable;
  * 2、compareTo() 是对map执行的结果进行排序
  *
  * @Date: 2021/1/2
- * @Author: wuyong
- * @Description: 天气案例实体类
+ *  * @Author: wuyong
+ *  * @Description: 天气案例实体类
  */
 public class Weather implements WritableComparable<Weather> {
 
