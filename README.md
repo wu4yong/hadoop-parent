@@ -1,5 +1,4 @@
-this is my hadoop project！
-Hadoop MR on yarn 搭建步骤：
+**Hadoop MR on yarn 搭建步骤：**
 1、etc/hadoop/mapred-site.xml:
 	指定计算框架在yarn上运行：MR on YARN
 
