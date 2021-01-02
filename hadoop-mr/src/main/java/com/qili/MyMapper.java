@@ -6,7 +6,11 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: hdfs客户端Api操作
+ */
 public class MyMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
     private Text outKey = new Text();
