@@ -8,7 +8,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: hdfs客户端Api操作
+ */
 public class Client {
     public static void main(String[] args) throws Exception {
         // 1、加载配置文件

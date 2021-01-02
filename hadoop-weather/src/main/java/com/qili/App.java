@@ -7,7 +7,11 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: hdfs客户端Api操作
+ */
 public class App {
 
     public static void main(String[] args) throws Exception {
