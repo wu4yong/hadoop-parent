@@ -4,6 +4,11 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.lib.partition.HashPartitioner;
 
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 public class FirstPartition extends HashPartitioner<Text, IntWritable>{
 
 	public int getPartition(Text key, IntWritable value, int reduceCount) {

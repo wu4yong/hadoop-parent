@@ -8,6 +8,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 public class TwoMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
 	protected void map(LongWritable key, Text value, Context context)

@@ -23,7 +23,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  * 
  * 按照推荐得分降序排序，每个用户列出10个推荐物品
  * 
- * @author hadoop
+ * @author wuyong
  *
  */
 public class Step6 {

@@ -1,14 +1,20 @@
 package com.qili;
 
-import java.io.IOException;
-import java.io.StringReader;
-
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.wltea.analyzer.core.IKSegmenter;
 import org.wltea.analyzer.core.Lexeme;
+
+import java.io.IOException;
+import java.io.StringReader;
+
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 
 public class FirstMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 

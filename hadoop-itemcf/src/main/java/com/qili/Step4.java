@@ -22,7 +22,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  * 
  * 把同现矩阵和得分矩阵相乘
  * 
- * @author hadoop
+ * @author wuyong
  *
  */
 public class Step4 {

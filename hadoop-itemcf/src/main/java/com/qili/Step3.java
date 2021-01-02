@@ -19,7 +19,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  * 对物品组合列表进行计数，建立物品的同现矩阵 i100:i100 3 i100:i105 1 i100:i106 1 i100:i109 1
  * i100:i114 1 i100:i124 1
  * 
- * @author hadoop
+ * @author wuyong
  *
  */
 public class Step3 {

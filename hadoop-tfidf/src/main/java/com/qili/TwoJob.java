@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  * 最终得出某个单词在多少微博中出现过
  * 
- * @author hadoop
+ * @author wuyong
  *
  */
 public class TwoJob {

@@ -14,6 +14,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 public class LastMapper extends Mapper<LongWritable, Text, Text, Text> {
 	// 存放微博总数   count:1065  键值对
 	public static Map<String, Integer> cmap = null;

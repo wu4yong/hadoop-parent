@@ -5,6 +5,11 @@ import java.util.Map;
 
 import org.apache.hadoop.conf.Configuration;
 
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 商品推荐程序
+ */
 public class StartRun {
 
 	public static void main(String[] args) {

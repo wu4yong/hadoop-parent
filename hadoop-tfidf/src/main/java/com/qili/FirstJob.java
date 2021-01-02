@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  * 
  * 计算某个词语在某篇微博中的总数，同时计算一共多少篇微博
  * 
- * @author hadoop
+ * @author wuyong
  *
  */
 public class FirstJob {

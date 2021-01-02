@@ -24,7 +24,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 	u21	i266:1,
 	u24	i64:1,i218:1,i185:1,
 	u26	i276:1,i201:1,i348:1,i321:1,i136:1,
- * @author hadoop
+ * @author wuyong
  *
  */
 public class Step2 {

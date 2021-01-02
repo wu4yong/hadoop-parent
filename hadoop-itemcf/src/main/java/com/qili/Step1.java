@@ -17,10 +17,9 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 /**
- * 去重复
- * 
- * @author hadoop
- *
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 商品推荐程序
  */
 public class Step1 {
 

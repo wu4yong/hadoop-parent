@@ -8,7 +8,11 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 public class LastJob {
 
 	public static void main(String[] args) {

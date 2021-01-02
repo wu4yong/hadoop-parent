@@ -6,6 +6,11 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 public class TwoReduce extends Reducer<Text, IntWritable, Text, IntWritable> {
 
 	protected void reduce(Text key, Iterable<IntWritable> arg1, Context context)

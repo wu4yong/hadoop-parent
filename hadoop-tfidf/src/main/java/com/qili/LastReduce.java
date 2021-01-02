@@ -5,6 +5,11 @@ import java.io.IOException;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+/**
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 程序
+ */
 public class LastReduce extends Reducer<Text, Text, Text, Text> {
 
 	protected void reduce(Text key, Iterable<Text> iterable, Context context)

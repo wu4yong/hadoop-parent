@@ -22,7 +22,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  * 
  * 把相乘之后的矩阵相加获得结果矩阵
  * 
- * @author hadoop
+ * @author wuyong
  *
  */
 public class Step5 {
