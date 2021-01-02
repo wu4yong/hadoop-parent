@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 /**
  * @Date: 2021/1/2
  * @Author: wuyong
- * @Description: hdfs客户端Api操作
+ * @Description: MapperReduce reduce端操作
  */
 public class MyReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 

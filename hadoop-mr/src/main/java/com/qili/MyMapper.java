@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 /**
  * @Date: 2021/1/2
  * @Author: wuyong
- * @Description: hdfs客户端Api操作
+ * @Description: MapperReduce map端操作
  */
 public class MyMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 

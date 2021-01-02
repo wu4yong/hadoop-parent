@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  * @Date: 2021/1/2
  * @Author: wuyong
- * @Description: hdfs客户端Api操作
+ * @Description: MapperReduce程序入口客户端
  */
 public class Client {
     public static void main(String[] args) throws Exception {

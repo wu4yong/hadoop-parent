@@ -10,8 +10,9 @@ import org.apache.hadoop.io.WritableComparable;
  * 自定义的比较器类型必须实现WritableComparable 接口 作用： 1、readFields()和write()是进行序列化和反序列化操作
  * 2、compareTo() 是对map执行的结果进行排序
  *
- * @author wuyong
- *
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 天气案例实体类
  */
 public class Weather implements WritableComparable<Weather> {
 

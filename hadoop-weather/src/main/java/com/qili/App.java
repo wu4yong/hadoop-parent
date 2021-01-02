@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  * @Date: 2021/1/2
  * @Author: wuyong
- * @Description: hdfs客户端Api操作
+ * @Description: 天气案例入口类
  */
 public class App {
 

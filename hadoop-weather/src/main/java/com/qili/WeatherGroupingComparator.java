@@ -8,7 +8,9 @@ import org.apache.hadoop.io.WritableComparator;
  * 自定义天气分组比较器，必须继承WritableComparator
  * 作用： 判断两个键值对是否是一组数组，也就是判读key是否"相同"
  *
- * @author wuyong
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 天气案例分组比较器
  */
 public class WeatherGroupingComparator extends WritableComparator {
 

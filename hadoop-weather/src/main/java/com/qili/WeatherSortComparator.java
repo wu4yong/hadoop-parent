@@ -9,7 +9,9 @@ import org.apache.hadoop.io.WritableComparator;
  * 由于map的数据是按照年月日进行正序排序，按照分区shuffle到reducer主机上的时候
  * 在将键值对交给reduce方法迭代之前，按照温度对键值对进行二次排序，温度倒序排序
  *
- * @author wuyong
+ * @Date: 2021/1/2
+ * @Author: wuyong
+ * @Description: 天气案例二次排序
  */
 public class WeatherSortComparator extends WritableComparator {
 
