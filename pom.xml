@@ -13,6 +13,8 @@
         <module>hadoop-hdfs</module>
         <module>hadoop-mr</module>
         <module>hadoop-weather</module>
+        <module>hadoop-itemcf</module>
+        <module>hadoop-tfidf</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
