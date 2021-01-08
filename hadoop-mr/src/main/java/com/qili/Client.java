@@ -19,8 +19,12 @@ public class Client {
         Configuration conf = new Configuration();
         // 2、从配置文件获取作业对象的实例
         Job job = Job.getInstance(conf);
+        //设置名称 可忽略
+        job.setJobName("wordcount");
         // 3、获取主入口类
         job.setJarByClass(Client.class);
+
+
 
         // 4、获取输入对象路径path，利用FileInputFormat进行添加操作
         FileInputFormat.setInputPaths(job, new Path("hdfs://node02:8020/mr/data/input/wc.txt"));

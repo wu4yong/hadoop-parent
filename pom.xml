@@ -15,6 +15,7 @@
         <module>hadoop-weather</module>
         <module>hadoop-itemcf</module>
         <module>hadoop-tfidf</module>
+        <module>hadoop-fof</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
